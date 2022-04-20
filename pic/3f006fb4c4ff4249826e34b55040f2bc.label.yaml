@@ -1,0 +1,40 @@
+- id: 0
+  bbox:
+  - 990
+  - 83
+  - 1036
+  - 325
+  label: 属于迪容区
+  keyword: ''
+- id: 1
+  bbox:
+  - 11
+  - 154
+  - 54
+  - 376
+  label: 黄瓜经过千
+  keyword: ''
+- id: 2
+  bbox:
+  - 77
+  - 225
+  - 106
+  - 412
+  label: 也不完全代
+  keyword: ''
+- id: 3
+  bbox:
+  - 128
+  - 73
+  - 169
+  - 298
+  label: 共产王朝派
+  keyword: 共产王朝
+- id: 4
+  bbox:
+  - 194
+  - 25
+  - 244
+  - 237
+  label: 期刊常务
+  keyword: ''

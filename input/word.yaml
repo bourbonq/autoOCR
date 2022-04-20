@@ -1,0 +1,22 @@
+#word.yaml
+id: 0
+position: 
+ height: 12
+ width: 25
+font: 'songti'
+color: 
+ b: 20
+ g: 56
+ r: 44
+label: 'china'
+---
+id: 1
+position:
+ height: 456
+ width: 77
+font: 'kaiti'
+color: 
+ b: 156
+ g: 156
+ r: 156
+label: 'computer'
