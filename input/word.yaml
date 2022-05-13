@@ -1,22 +1,30 @@
-#word.yaml
-id: 0
-position: 
- height: 12
- width: 25
-font: 'songti'
-color: 
- b: 20
- g: 56
- r: 44
-label: 'china'
----
-id: 1
-position:
- height: 456
- width: 77
-font: 'kaiti'
-color: 
- b: 156
- g: 156
- r: 156
-label: 'computer'
+- id: 0
+  label: b
+  size: 15
+  position:
+    x1: 80
+    y1: 80
+    x2: 90
+    y2: 90
+  family: arial.ttf
+  color:
+    b: 255
+    g: 0
+    r: 255
+  style: '111'
+  weight: '222'
+- id: 1
+  label: b
+  size: 17
+  position:
+    x1: 10
+    y1: 40
+    x2: 30
+    y2: 60
+  family: arial.ttf
+  color:
+    b: 0
+    g: 0
+    r: 0
+  style: '111'
+  weight: '222'
