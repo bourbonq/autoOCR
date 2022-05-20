@@ -1,30 +1,15 @@
 - id: 0
-  label: b
-  size: 15
+  label: 记录和分享
+  size: 40
   position:
-    x1: 80
-    y1: 80
-    x2: 90
-    y2: 90
-  family: arial.ttf
-  color:
-    b: 255
-    g: 0
-    r: 255
-  style: '111'
-  weight: '222'
-- id: 1
-  label: b
-  size: 17
-  position:
-    x1: 10
-    y1: 40
-    x2: 30
-    y2: 60
-  family: arial.ttf
+    x1: 100
+    y1: 100
+    x2: 200
+    y2: 200
+  family: FZSTK.TTF
   color:
     b: 0
     g: 0
-    r: 0
-  style: '111'
-  weight: '222'
+    r: 255
+  style: '46'
+  weight: '23'
