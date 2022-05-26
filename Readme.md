@@ -1,16 +1,16 @@
 autoOCR
 ===========================
 
-# Introduction
+## Introduction
 
 This tool is usd to paint Chinese characters on the picture automatically. You can specify the way to generate target images.
 
-# Enviroment dependency
+## Enviroment dependency
 
 Python 3.7.5+
 Pillow 5.4.1+
 
-# How to use autoOCR
+## How to use autoOCR
 
 1. Run "python3 gen_character.py" if chinese_character.txt does not exist in source directory.
 
@@ -33,7 +33,7 @@ Pillow 5.4.1+
 
    The final image is stored in output/res.png and the mark file is stored in output/mark.yaml.
 
-# Directory structure description
+## Directory structure description
 
 autoOCR
 ├── Readme.md                   // help
@@ -54,7 +54,7 @@ autoOCR
     ├── paragraph               // paragraphs for obtain Chinese characters
     └── picture                 // pictures as the background of the final image
 
-# Additional instructions
+## Additional instructions
 
 Future work:
 1. Write scripts in order to specify the location and form of input and output.
