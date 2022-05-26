@@ -8,6 +8,7 @@ This tool is usd to paint Chinese characters on the picture automatically. You c
 ### Enviroment dependency
 
 Python 3.7.5+
+
 Pillow 5.4.1+
 
 ### How to use autoOCR
@@ -36,22 +37,39 @@ Pillow 5.4.1+
 ### Directory structure description
 
 autoOCR
+
 ├── Readme.md                   // help
-├── code                        
+
+├── code
+                        
 │   ├── gen_character.py	// generate chinese_character.txt
+
 │   ├── gen_word.py             // generate words with parameters
+
 │   ├── read_yaml.py            // read yaml files
+
 │   ├── run_cv.py               // paint words by opencv, no use at present
+
 │   └── run.py                  // paint words on a picture by pillow
+
 ├── input
+
 │   ├── pic.yaml                // picture configuration if mode is monochrome
+
 │   └── word.yaml               // word configuration
+
 ├── output                      // generate res.png and mark.yaml after running run.cv
+
 ├── requirements.txt            // enviroment requirements
+
 └── source                      // source for words, pictures, etc.
+
     ├── chinese_character.txt   // a Chinese character library
+
     ├── fonts                   // available font family for Chinese characters
+
     ├── paragraph               // paragraphs for obtain Chinese characters
+
     └── picture                 // pictures as the background of the final image
 
 ### Additional instructions
